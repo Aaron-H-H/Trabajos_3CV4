@@ -1,4 +1,7 @@
-#Hernández Hernández Aarón
+"""
+Hernández Hernández Aarón
+3CV4
+"""
 def dividir(dividendo: int, divisor: int) -> int:
     if dividendo == -2**31 and divisor == -1:
         return 2**31 - 1  # Evitar desbordamiento
